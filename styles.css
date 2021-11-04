@@ -95,3 +95,33 @@ button:hover {
   opacity: 0;
   transition: opacity 1s;
 }
+
+@media screen and (max-width: 31.25em) {
+  .rgb {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 22.75em) {
+  .heading {
+    font-size: 0.8rem;
+  }
+  .rgb {
+    font-size: 1.5rem;
+  }
+  .reset,
+  .mode {
+    font-size: 0.7rem;
+  }
+  .message {
+    font-size: 0.7rem;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 15em) {
+  .reset,
+  .mode {
+    font-size: 0.5rem;
+  }
+}
