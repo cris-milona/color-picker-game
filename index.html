@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Color Picker Game</title>
+  </head>
+  <body>
+    <div class="heading" data-heading>
+      <h1>The Color Picker Game</h1>
+      <h3>Guess the color of the RGB color code</h3>
+    </div>
+    <h2 class="rgb" data-color-to-find>RGB</h2>
+    <div class="stripe">
+      <button class="reset" data-new-color>New Color</button>
+      <span class="message" data-message></span>
+      <button class="mode" data-mode>Easy</button>
+      <button class="mode selected" data-mode>Hard</button>
+    </div>
+
+    <div class="container" data-colors-container>
+      <div class="square" data-square></div>
+      <div class="square" data-square></div>
+      <div class="square" data-square></div>
+      <div class="square" data-square></div>
+      <div class="square" data-square></div>
+      <div class="square" data-square></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
