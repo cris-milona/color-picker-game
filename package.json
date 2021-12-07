@@ -4,7 +4,8 @@
   "description": "game",
   "main": "index.js",
   "scripts": {
-    "start": "live-server"
+    "start": "node src/app.js",
+    "dev": "env-cmd -f ./config/dev.env nodemon src/app.js"
   },
   "repository": {
     "type": "git",
@@ -12,11 +13,8 @@
   },
   "author": "Milona Christina",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cris-milona/color-picker-game/issues"
-  },
-  "homepage": "https://github.com/cris-milona/color-picker-game#readme",
   "dependencies": {
-    "liveserver": "^0.1.20"
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1"
   }
 }
